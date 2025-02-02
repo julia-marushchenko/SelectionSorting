@@ -29,12 +29,12 @@ public class SelectionSorting {
         for (int  element : array) {
             System.out.print(element + " ");
         }
-        System.out.println();
+        
         // Sorting the array
         SelectionSorting.selectionSort(array);
 
         // Printing an array after sorting to console
-        System.out.println("Array after sorting:");
+        System.out.println("\nArray after sorting:");
         for (int  element : array) {
             System.out.print(element + " ");
         }
